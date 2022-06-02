@@ -9,7 +9,7 @@
 }
 
 :root {
-    --bgcolor : #41135e;
+    --bgcolor : 	rgb(94, 25, 137);
     --accentcolor: #FFCC00;
 }
 
@@ -21,7 +21,7 @@ body {
 
 
 a{
-  color: #FFF;
+  color: rgb(40, 36, 36) !important;
   border-radius: 10px;
   width: 40vw !important;
 }
@@ -29,6 +29,7 @@ a{
 
 a:hover{
   width: 42vw !important;
+  color: #FFF !important;
 }
 
 
