@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: 'Karla', sans-serif;
+}
+
+:root {
+    --bgcolor : #41135e;
+    --accentcolor: #FFCC00;
+}
+
+body {
+    background-color: var(--bgcolor);
+    color: #FFF !important;
+}
+
+
+
+a{
+  color: #FFF;
+  border-radius: 10px;
+  width: 40vw !important;
+}
+
+
+a:hover{
+  width: 42vw !important;
+}
+
+
+.link-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+    gap: 20px;
+}
+.link-tree img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.link-tree h1 {
+    font-size: 2.5rem;
+}
+
+.link-tree a {
+    color: var(--bgcolor);
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.2s linear;
+}
+
+
+a.whats{
+  background-color: #61EB73;
+  border: solid 2px #61EB73;
+}
+
+a.whats:hover{
+  background-color: var(--bgcolor);
+  border: solid 2px #61EB73;
+  color: #61EB73;
+}
+
+a.tt{
+  background-color: #1DA1F2;
+  border: solid 2px #1DA1F2;
+}
+a.tt:hover{
+  background-color: var(--bgcolor);
+  border: solid 2px #1DA1F2;
+  color: #1DA1F2;
+}
+
+
+a.facebook{
+  background-color: #2E70FA;
+  border: solid 2px #2E70FA;
+}
+a.facebook:hover{
+  background-color: var(--bgcolor);
+  border: solid 2px #2E70FA;
+  color: #2E70FA;
+}
+
+a.instagram{
+  background-color: #F53030;
+  border: solid 2px #F53030;
+}
+a.instagram:hover{
+  background-color: var(--bgcolor);
+  border: solid 2px #F53030;
+  color:#F53030;
+}
+
+
+
+@media (min-width: 1024px) {
+    .link-tree {
+        width: 40vw;
+    }
+}
+
+
